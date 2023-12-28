@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+/* font-family: 'MedievalSharp', cursive; */
+:root{
+    font-size: 62.5%;
+    --colordark-:#040c2c;
+    --colorgreen-:#044c4c;
+    --colorgreen2-:#04344c;
+    --colorblue-:#247c9c;
+    --color-text-:#ffffff;
+    --font-:'MedievalSharp', cursive;
+}
+body{
+    height: 100vh;
+    font-family: var(--font-);
+    color: var(--color-text-);
+    background-color: #040c2c;
+    background-image: url(../img/body.jpg),linear-gradient(to bottom,#04344c00,#04344c );
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode:lighten;
+}
+header{
+    background-color: var(--colordark-);
+    padding: 2rem;
+
+    
+}
+header h1{
+    margin: 2rem 0;
+    font-size: 3rem;
+    text-align: center;
+}
+.conteudo{
+    padding: 1rem 3rem;
+    margin-bottom: 3rem;
+    background-color: #040c2cc1;
+}
+.conteudo-title{
+    margin: 2rem 0;
+    font-size: 3rem;
+    text-align: center;
+}
+.conteudo-p{
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+.form {
+    max-width: 60rem;
+    background-image: url(../img/form.jpg),linear-gradient(to bottom,#04344c,#04344c );
+        background-position: bottom;
+        background-size: cover;
+        background-blend-mode:multiply;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+
+    
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+}
+legend{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(139, 0, 0);
+    text-shadow: 0px 0px 10px black;
+}
+label,p{
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+input, select{
+    font-size: 1.7rem;
+    font-family: var(--font-);
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+}
+button{
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 2rem;
+    padding: 1em;
+    font-size: 2rem;
+    border-radius: 20px;
+    font-family: var(--font-);
+    background-color: var(--colorgreen-);
+    color: var(--color-text-);
+    transition: all .9s;
+}
+textarea{
+    padding: 1rem;
+    border-radius: 20px;
+    font-family: var(--font-);
+    font-size: 1.7rem;
+    resize: none;
+
+}
+.flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+/* hovers e focus */
+input,select,textarea{
+    transition: all .3s;
+}
+select:hover{
+    background-color: #c4d0ff;
+
+}
+input:hover{
+    background-color: #c4d0ff;
+}
+textarea:hover{
+    background-color: #c4d0ff;
+}
+select:focus{
+    background-color: #000000;
+    color: rgb(139, 0, 0);
+
+}
+input:focus{
+    background-color: #000000;
+    color: rgb(139, 0, 0);
+}
+textarea:focus{
+    background-color: #000000;
+    color: rgb(139, 0, 0);
+}
+button:hover{
+    background-color: var(--colorblue-);
+    transform: scale(1.09);
+}
+button:focus{
+    background-color: var(--colorblue-);
+    transform: scale(1.09) translateY(8px);
+}
+
+/* card javacritp */
+.card{
+    margin: 5rem auto;
+    max-width: 35rem;
+    height: 43rem;
+    background-image: url(../img/card.jpg),linear-gradient(to bottom,#04344c,#04344c );
+        background-position: top;
+        background-size: cover;
+        background-blend-mode:multiply;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+
+
+}
+.title-card{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: rgb(177, 153, 153);
+
+}
+.card-interno{
+    background-color: #247c9c8f;
+    /* padding: 2rem; */
+    
+
+
+}
+.subtitle-card{
+    font-size: 2.2rem;
+    border-bottom: 2px solid var(--colordark-);
+    padding-bottom: 1rem;
+    padding: 2rem;
+}
+.txt-center h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+    padding: 0 2rem;
+
+}
+.idade{
+    padding: 0 2rem;
+}
+.text-descriçao{
+
+    background-color: #ffffffc7;
+    padding: 1rem;
+
+    color: var(--colordark-);
+    text-align: center;
+}

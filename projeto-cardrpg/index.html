@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crie seu cardrpg</title>
+    <link rel="stylesheet" href="assets/style/reset.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Crie seu cartao RPG</h1>
+    </header>
+    <main class="conteudo">
+        <h1 class="conteudo-title">projeto simples</h1>
+        <p class="conteudo-p">Os RPGs de mesa representam uma forma fascinante e imersiva de entretenimento, onde a imaginação é a principal ferramenta e as histórias se desdobram por meio da colaboração entre jogadores e um mestre de jogo. Nestes jogos, os participantes assumem o papel de personagens fictícios, explorando mundos fantásticos, resolvendo desafios e moldando o curso da narrativa com base em suas escolhas.
+
+            A magia dos RPGs de mesa reside na liberdade criativa oferecida aos jogadores. Eles podem encarnar heróis valentes, astutos ladrões, poderosos feiticeiros ou qualquer outra persona que desejem. O mestre de jogo, por sua vez, atua como o contador de histórias, criando um cenário rico e apresentando desafios para os jogadores superarem.</p>
+    </main>
+    <div class="flex">
+    <section class="main">
+        <form action="" class="form">
+            <fieldset>
+                <legend>Seus dados</legend>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Ex: Edgar">
+                <label for="sname">Sobrenome:</label>
+                <input type="text" name="sname" id="sname" placeholder="Ex: Castle">
+                <label for="alcunha">Alcunha:</label>
+                <input type="text" name="alcunha" id="alcunha" placeholder="Ex: Rei da Lua">
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" placeholder="100 anos" min="0">
+                <label for="classe">Classe:</label>
+                <select name="classe" id="classe">
+                    <option value="0">selecione</option>
+                    <option value="mago">Mago</option>
+                    <option value="Cavaleiro">Cavaleiro</option>
+                    <option value="Aqueiro">Arqueiro</option>
+                    <option value="bruxo">Bruxo</option>
+                    <option value="gigante">Gigante</option>
+                    <option value="elfo">Elfo</option>
+                    <option value="metadedemonio">Metade Demonio</option>
+                    <option value="Humano">Humano</option>
+
+                </select>
+                <p>Em que voce acredita?</p>
+            <label for="vilão"><input type="radio" name="indole" id="escolha" value="Vilão" > O mundo é um lugar sujo que precisa ser destruido</label>
+            <label for="heroi"><input type="radio" name="indole" id="escolha" value="Heroi" > O mundo é um lugar sujo e eu vou salva-lo</label>
+            <label for="antheroi"> <input type="radio" name="indole" id="escolha" value="Anti heroi" > Que se foda o mundo</label>
+            <label for="history">Qual a historia do seu personagem?</label>
+            <textarea name="history" id="history" cols="30" rows="10" maxlength="250" placeholder="no maximo 250 caracters..."></textarea>
+            <button type="submit"> criar cartão</button>
+            </fieldset>
+            
+
+            
+        </form>
+        
+
+    </section>
+    <section class="card">
+        <h2 class="title-card">
+            O terro dos mares - mago
+        </h2>
+
+        <div class="card-interno" >
+            <h3 class="subtitle-card">pedro alencar</h3>
+            <p class="idade">idade 30 anos</p>
+            <div class="txt-center">
+                <h2 class="escolha">vilão</h2>
+                <p class="text-descriçao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ad ex illo. Culpa rem libero excepturi ex, perspiciatis corporis molestiae odit quisquam sint soluta autem laborum fuga voluptate aperiam expedita!</p>
+                
+            </div>
+
+
+        </div>
+
+    </section>
+    </div>
+    <script src="assets/js/index.js"></script>
+    
+</body>
+</html>
